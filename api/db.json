@@ -1,0 +1,25 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "chrysanthemum"
+        },
+        {
+            "id": 2,
+            "name": "daisy"
+        },
+        {
+            "id": 3,
+            "name": "rose"
+        },
+        {
+            "id": 4,
+            "name": "tulip"
+        },
+        {
+
+            "id": 5,
+            "name": "hydrangea"
+        }
+    ]
+}
