@@ -2,24 +2,55 @@
     "flowers": [
         {
             "id": 1,
-            "name": "chrysanthemum"
+            "name": "chrysanthemum",
+            "retailerId": 1
         },
         {
             "id": 2,
-            "name": "daisy"
+            "name": "daisy",
+            "retailerId": 2
         },
         {
             "id": 3,
-            "name": "rose"
+            "name": "rose",
+            "retailerId": 3
         },
         {
             "id": 4,
-            "name": "tulip"
+            "name": "tulip",
+            "retailerId": 4
         },
         {
 
             "id": 5,
-            "name": "hydrangea"
+            "name": "hydrangea",
+            "retailerId": 5
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Annie Are You Bouquet?"
+        },
+        {
+            "id": 2,
+            "name": "Seeds of Destiny"
+        },
+        {
+            "id": 3,
+            "name": "Petal to the Metal"
+        },
+        {
+            "id": 4,
+            "name": "Ka-bloom"
+        },
+        {
+            "id": 5,
+            "name": "What in Carnation"
+        },
+        {
+            "id": 6,
+            "name": "I'm Proud to be Y-orchid"
         }
     ]
 }
