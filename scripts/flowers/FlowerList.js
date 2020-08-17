@@ -2,7 +2,7 @@ import { getFlowers, useFlowers } from "./FlowerProvider.js"
 import {flowersHTML} from "./FlowerHTML.js"
 
 
-const eventHub = document.querySelector(".container")
+const contentTarget = document.querySelector(".flowerContainer")
 
 
 const render = (flowerArray) => {
@@ -11,7 +11,7 @@ const render = (flowerArray) => {
         representation += flowersHTML(flower)
     })
 
-    eventHub.innerHTML = `
+    contentTarget.innerHTML = `
     <h2>Flowers</h2>
         <section>
         ${representation}
