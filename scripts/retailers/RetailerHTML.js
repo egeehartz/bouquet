@@ -1,6 +1,7 @@
 export const retailersHTML = (retailerObj) => {
     return `
-        <div>${retailerObj.name}</div>
+        <div>Retailer: ${retailerObj.name}</div>
+        <div> Distributed by: ${retailerObj.distributor.name}</div>
     
     `
 

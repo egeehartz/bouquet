@@ -30,33 +30,47 @@
     "retailers": [
         {
             "id": 1,
-            "name": "Annie Are You Bouquet?"
+            "name": "Annie Are You Bouquet?",
+            "distributorId": 1
         },
         {
             "id": 2,
-            "name": "Seeds of Destiny"
+            "name": "Seeds of Destiny",
+            "distributorId": 2
         },
         {
             "id": 3,
-            "name": "Petal to the Metal"
+            "name": "Petal to the Metal",
+            "distributorId": 3
         },
         {
             "id": 4,
-            "name": "Ka-bloom"
+            "name": "Ka-bloom",
+            "distributorId": 1
         },
         {
             "id": 5,
-            "name": "What in Carnation"
+            "name": "What in Carnation",
+            "distributorId": 2
         },
         {
             "id": 6,
-            "name": "I'm Proud to be Y-orchid"
+            "name": "I'm Proud to be Y-orchid",
+            "distributorId": 3
         }
     ],
     "distributors": [
         {
             "id": 1,
-            ""
+            "name": "Wal-Mart"
+        },
+        {
+            "id": 2,
+            "name": "Lowe's"
+        },
+        {
+            "id": 3,
+            "name": "Home Depot"
         }
     ]
 }
