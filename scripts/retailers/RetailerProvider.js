@@ -3,7 +3,7 @@ let retailers = []
 
 
 export const getRetailers = () => {
-    return fetch("http://localhost:3000/retailers?_expand=distributor")
+    return fetch("http://localhost:3000/retailers")
         .then(resp => resp.json())
         .then(parsedRes => {
             retailers = parsedRes

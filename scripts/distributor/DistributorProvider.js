@@ -1,4 +1,4 @@
-let retailers = []
+let distributors = []
 
 
 
@@ -6,12 +6,12 @@ export const getDistributors = () => {
     return fetch("http://localhost:3000/distributors")
         .then(resp => resp.json())
         .then(parsedRes => {
-            retailers = parsedRes
+            distributors = parsedRes
         })
         
 }
 
 
-export const useRetailers = () => {
-    return retailers.slice()
+export const useDistributors = () => {
+    return distributors.slice()
 }

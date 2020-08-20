@@ -99,7 +99,7 @@
             "name": "Jack and Jill"
         }
     ],
-    "NurseryFlower": [
+    "NurseryFlowers": [
         {
             "id": 1,
             "nurseryId": 1,
@@ -162,7 +162,7 @@
         }
 
     ],
-    "NurseryDistributor": [
+    "NurseryDistributors": [
         {
             "id": 1,
             "distributorId": 1,
