@@ -13,9 +13,9 @@ const render = (flowerArray) => {
 
     contentTarget.innerHTML = `
     <h2>Flowers</h2>
-        <section>
+        <div>
         ${representation}
-        </section>
+        </div>
     `
 }
 

@@ -1,0 +1,10 @@
+.distributed {
+    border-bottom: solid black 1px;
+    margin-right: 15 rem;
+}
+
+section {
+    border: 2px dotted black;
+    margin: 1rem;
+    padding: 2rem;
+}
