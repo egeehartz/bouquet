@@ -25,14 +25,6 @@ const render = (retailerArray) => {
 
         const rep = retailerArray.map(retailer => {
 
-            /*
-            map over ND
-            within that, map over the new array to find nurseries associated with the current retailer
-  
-            map over NF
-  
-            */
-
             const distributorFound = distributors.find(distributor => distributor.id === retailer.distributorId)  
             
             //returns array of 2 objects from ND and the distributorIds are the same
@@ -62,9 +54,9 @@ const render = (retailerArray) => {
             console.log(nurseriesPerDistributor)
             console.log(flowersList)
 
-                 retailersHTML(distributorFound, retailer, nurseriesPerDistributor, flowersList)
+                return retailersHTML(distributorFound, retailer, nurseriesPerDistributor, flowersList)
         }).join("")
-       return contentTarget.innerHTML = rep
+        contentTarget.innerHTML = rep
     })
 
 }
