@@ -1,6 +1,6 @@
 export const flowersHTML = (flowerObj) => {
     return `
-        <h1>${flowerObj.name}</h1>
+        <h4>${flowerObj.name}</h4>
     
     `
 

@@ -2,24 +2,197 @@
     "flowers": [
         {
             "id": 1,
-            "name": "chrysanthemum"
+            "name": "chrysanthemum",
+            "retailerId": 1
         },
         {
             "id": 2,
-            "name": "daisy"
+            "name": "daisy",
+            "retailerId": 2
         },
         {
             "id": 3,
-            "name": "rose"
+            "name": "rose",
+            "retailerId": 3
         },
         {
             "id": 4,
-            "name": "tulip"
+            "name": "tulip",
+            "retailerId": 4
         },
         {
 
             "id": 5,
-            "name": "hydrangea"
+            "name": "hydrangea",
+            "retailerId": 5
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Annie Are You Bouquet?",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Seeds of Destiny",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Petal to the Metal",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Ka-bloom",
+            "distributorId": 1
+        },
+        {
+            "id": 5,
+            "name": "What in Carnation",
+            "distributorId": 2
+        },
+        {
+            "id": 6,
+            "name": "I'm Proud to be Y-orchid",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Wal-Mart"
+        },
+        {
+            "id": 2,
+            "name": "Lowe's"
+        },
+        {
+            "id": 3,
+            "name": "Home Depot"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Mother Goose"
+        },
+        {
+            "id": 2,
+            "name": "Little Star"
+        },
+        {
+            "id": 3,
+            "name": "Humpty Dumpty"
+        },
+        {
+            "id": 4,
+            "name": "Black Sheep"
+        },
+        {
+            "id": 5,
+            "name": "Jack Be Nimble"
+        },
+        {
+            "id": 6,
+            "name": "Jack and Jill"
+        }
+    ],
+    "NurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 3
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 4
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 5
+        },
+        {
+            "id": 11,
+            "nurseryId": 6,
+            "flowerId": 1
+        },
+        {
+            "id": 12,
+            "nurseryId": 6,
+            "flowerId": 2
+        }
+
+    ],
+    "NurseryDistributors": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 6
         }
     ]
+    
 }
